@@ -6,11 +6,11 @@
 
 ## Install
 
-1.Download the obsidian.css file.
+1. Download the obsidian.css file.
 
-2.Put the obsidian.css in your vault root folder.
+2. Put the obsidian.css in your vault root folder.
 
-3.Restart Obsidian.
+3. Restart Obsidian.
 
 ## Creator
 
