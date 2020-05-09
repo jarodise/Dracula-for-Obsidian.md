@@ -1,6 +1,6 @@
-# Dracula for [X](http://link-to-x.com)
+# Dracula for [Obsidian.md](https://obsidian.md)
 
-> A dark theme for [X](http://link-to-x.com).
+> A dark theme for [Obsidian](https://obisidian.md)
 
 ![Screenshot](./screenshot.png)
 
