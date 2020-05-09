@@ -2,7 +2,7 @@
 
 > A dark theme for [Obsidian](https://obisidian.md)
 
-![Screenshot](./screenshot.jpg)
+![Screenshot](./screeshot.jpg)
 
 ## Install
 
