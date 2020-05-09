@@ -1,0 +1,319 @@
+body, p {
+  font-family: "Dank Mono", Roboto, Helvetica, Arial, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.editor {
+    font-family:"Dank Mono", Roboto, Helvetica, Arial, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 20px;
+}
+
+.preview {
+    font-family: "Dank Mono", Roboto, Helvetica, Arial, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 20px;
+}
+
+.theme-dark
+{
+    --background-primary: #282a36;
+    --background-primary-alt: #44475a;
+    --background-secondary: #282828;
+    --background-secondary-alt: #282a36;
+    --text-normal: #f8f8f2;
+    --text-faint: #bd93f9;
+    --text-title-h1: #ff79c6;
+    --text-title-h2: #bd93f9;
+    --text-title-h3: #ff5555;
+    --text-title-h4: #ffb86c;
+    --text-title-h5: #50fa7b;
+    --text-link: #8be9fd;
+    --text-a: #50fa7b;
+    --text-a-hover: #bd93f9;
+    --text-mark: #8be9fd;
+    --pre-code: #282a36;
+    --text-highlight-bg: #6272a4;
+    --interactive-accent: #44475a;
+    --interactive-before: #44475a;
+    --background-modifier-border: #44475a;
+    --text-accent: #44475a;
+    --interactive-accent-rgb: #44475a;
+
+}
+
+.theme-light
+{
+    --background-primary: #fbf1c7; /* bg */
+    --background-primary-alt: #fbf1c7; /* bg */
+    --background-secondary: #f9f5d7; /* bg0_h */
+    --background-secondary-alt: #ebdbb2; /* bg1 */
+    --text-normal: #282a36; /* fg0 */
+    --text-faint: #665c54; /* fg3 */
+    --text-title-h1: #9d0006; /* dark red */
+    --text-title-h2: #af3a03; /* dark orange */
+    --text-title-h3: #b57614; /* dark yellow */
+    --text-title-h4: #79740e; /* dark green */
+    --text-title-h5: #427b58; /* dark aqua */
+    --text-link: #458588; /* light blue */
+    --text-a: #d65d0e; /* light orange */
+    --text-a-hover: #458588; /* light blue */
+    --text-mark: #d79921; /* light yellow */
+    --pre-code: #ebdbb2; /* bg1 */
+    --text-highlight-bg: #689d6a; /* light aqua */
+    --interactive-accent: #d65d0e; /* light orange */
+    --interactive-before: #a89984; /* bg4 */
+    --background-modifier-border: #d5c4a1; /* bg2 */
+    --text-accent: #d65d0e; /* light orange */
+    --interactive-accent-rgb: #d65d0e; /* light orange */
+}
+
+#graph-view-canvas .links
+{
+    stroke: var(--interactive-accent-rgb) !important;
+}
+
+.checkbox-container
+{
+    background-color: var(--interactive-before);
+    height: 16px !important;
+    width: 34px !important;
+}
+
+.checkbox-container:after
+{
+    background-color: var(--background-secondary-alt);
+    height: 11px !important;
+    width: 14px !important;
+    left: -4px !important;
+}
+
+
+hr
+{
+    border-color: var(--text-normal);
+}
+
+strong
+{
+    font-weight: 600;
+}
+
+a, .internal-link
+{
+    color: var(--text-a) !important;
+    text-decoration: none !important;
+}
+
+a:hover, .internal-link:hover
+{
+    color: var(--text-a-hover) !important;
+    text-decoration: none !important;
+}
+
+mark
+{
+    background-color: var(--text-mark);
+}
+
+.file-view-actions a
+{
+    color: var(--text-normal) !important;
+}
+
+.file-view-actions a:hover
+{
+    color: var(--text-a) !important;
+}
+
+.cl-underlined-text
+{
+    text-decoration: none !important;
+    color: var(--text-link) !important;
+}
+
+pre code
+{
+    padding: 4px !important;
+    line-height: normal;
+    display: block;
+    background-color: var(--pre-code) !important;
+}
+
+.code
+{
+    background-color: var(--background-secondary-alt) !important;
+    border: 1px solid var(--background-modifier-border) !important;
+}
+
+th
+{
+    font-weight: 600 !important;
+}
+
+thead
+{
+    border-bottom: 2px solid var(--background-modifier-border);
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-container-header
+{
+    padding-top: 0 !important;
+}
+
+.title
+{
+    font-weight: 600 !important;
+}
+
+.side-dock-panels-container
+{
+    border-right: 1px solid var(--background-secondary-alt) !important;
+}
+
+.side-dock-panels-container *
+{
+    font-size: 14px !important;
+}
+
+.side-dock-title
+{
+    padding-top: 15px !important;
+    font-size: 22px !important;
+}
+
+.side-dock-ribbon-tab:hover,
+.side-dock-ribbon-action:hover,
+.side-dock-ribbon-action.is-active:hover,
+.nav-action-button:hover,
+.side-dock-collapse-btn:hover
+{
+    color: var(--text-a);
+}
+
+.nav-file
+{
+    line-height: normal;
+}
+
+.nav-file-title-content
+{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.plugin
+{
+    padding: 5px 10px !important;
+    margin: 0 !important;
+}
+
+.editor, .preview
+{
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+
+
+.markdown-embed-title
+{
+    font-weight: 600;
+}
+
+.markdown-embed
+{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.markdown-highlighting .h1,
+.preview h1
+{
+    font-weight: 500;
+    font-size: 34px;
+    font-weight: bold;
+    color: var(--text-title-h1);
+}
+
+.markdown-highlighting .h2,
+.preview h2
+{
+    font-weight: 500;
+    font-size: 26px;
+    font-weight: bold;
+    color: var(--text-title-h2);
+}
+
+.markdown-highlighting .h3,
+.preview h3
+{
+    font-weight: 500;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--text-title-h3);
+}
+
+.markdown-highlighting .h4,
+.preview h4
+{
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-title-h4);
+}
+
+.markdown-highlighting .h5,
+.markdown-highlighting .h6,
+.preview h5,
+.preview h6
+{
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-title-h5);
+}
+
+.table
+{
+    background-color: var(--background-secondary-alt);
+    border: 1px solid var(--background-modifier-border);
+    padding: 4px;
+    line-height: normal;
+    display: block;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.suggestion-item.is-selected
+{
+    background-color: var(--background-secondary);
+}
+
+.empty-state-container:hover
+{
+    background-color: var(--background-secondary-alt);
+    border: 5px solid var(--interactive-accent) !important;
+}
+.theme-light strong {
+    color: #000000;
+}
+
+.theme-light em {
+    color: #000000;
+}
+
+.theme-dark strong {
+    color: #b5c7c7;
+}
+
+.theme-dark em {
+    color: #b8cece;
+}
