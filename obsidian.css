@@ -106,6 +106,11 @@ a, .internal-link, .cm-hmd-internal-link, .cm-link, .cm-formatting-link
   text-decoration: none !important;
 }
 
+.cm-formatting-link
+{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
 a:hover, .internal-link:hover
 {
   color: var(--text-a-hover) !important;
