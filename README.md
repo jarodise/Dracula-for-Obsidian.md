@@ -8,13 +8,15 @@
 
 1. Download the obsidian.css file.
 
-2. Put the obsidian.css in your vault root folder.
+2. In Obsidian click Settings->Plugins and turn on "Custom CSS".
 
-3. Restart Obsidian.
+3. Put the "obsidian.css" in your vault root folder.
+
+4. Restart Obsidian.
 
 ## Creator
 
-This theme is created and maintained by jarodise.
+This theme is created and maintained by @jarodise.
 
 
 ## License
