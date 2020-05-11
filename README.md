@@ -18,7 +18,7 @@
 
 ## Creator
 
-This theme is created and maintained by @jarodise.
+This theme is created and maintained by Jarod Zhang (Twitter/Instagram @jarodise)
 
 
 ## License
