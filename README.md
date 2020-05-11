@@ -14,6 +14,8 @@
 
 4. Restart Obsidian.
 
+* To achieve the best visual effect, please install iA writer's [iA Writer Quattro](https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Quattro) font on your computer.
+
 ## Creator
 
 This theme is created and maintained by @jarodise.
