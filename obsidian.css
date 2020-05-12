@@ -376,7 +376,7 @@ font-size: 18px;
   border: 5px solid var(--interactive-accent) !important;
 }
 .theme-light strong {
-  color: #000000;
+  color: var(--text-a) !important;
   font-weight: bolder;
 }
 
@@ -385,10 +385,16 @@ font-size: 18px;
 }
 
 .theme-dark strong {
-  color: #b5c7c7;
+  color: var(--text-a) !important;
   font-weight: bolder;
 }
 
 .theme-dark em {
-  color: #b8cece;
+  color:#b5c7c7; 
+}
+
+.cm-s-obsidian .cm-strong
+{
+  font-weight: bolder;
+  color: var(--text-a) !important;
 }
