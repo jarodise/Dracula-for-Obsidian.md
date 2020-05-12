@@ -398,3 +398,9 @@ font-size: 18px;
   font-weight: bolder;
   color: var(--text-a) !important;
 }
+
+.search-result-file-title
+{
+  color: var(--text-a) !important;
+  font-weight: bolder;
+}
