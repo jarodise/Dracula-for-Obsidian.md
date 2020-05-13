@@ -404,3 +404,21 @@ font-size: 18px;
   color: var(--text-a) !important;
   font-weight: bolder;
 }
+
+/* condense line spacing on file explorer title list. also avoids character-level word breaks*/
+.nav-file-title-content,.search-result-file-title,.search-result-file-match,.search-result-file-title
+{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  line-height: normal !important;
+  word-break: keep-all;
+}
+
+/*clean up side bar empty state (e.g. unlinked mentions not having odd spacing when side bar is narrow)*/
+.search-empty-state
+{
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: normal;
+}
