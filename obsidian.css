@@ -422,3 +422,9 @@ font-size: 18px;
   padding-right: 15px;
   line-height: normal;
 }
+
+/* Changing backlink pane font-size and color*/
+.search-result-file-matches
+{
+color: var(--text-normal) !important;
+}
