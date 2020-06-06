@@ -254,13 +254,6 @@ font-family: Avenir;
 font-size: 18px;
 }
 
-.cm-s-obsidian, .app-container
-{
-  font-family: Avenir;
-  font-size: 18px; /*Editor font-size*/
-  padding-left: 4px;
-}
-
 .cm-s-obsidian  /*Editor padding*/
 {
   padding-left: 10% !important;
@@ -427,4 +420,12 @@ font-size: 18px;
 .search-result-file-matches
 {
 color: var(--text-normal) !important;
+}
+
+
+.cm-s-obsidian, .app-container
+{
+  font-family: iAWriterQuattroS-Regular, "Dank Mono", Roboto, Helvetica, Arial, "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px; /*Editor font-size*/
+  line-height: 160%;
 }
