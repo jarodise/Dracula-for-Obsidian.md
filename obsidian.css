@@ -509,3 +509,7 @@ color: var(--text-normal) !important;
     height: 100%;
 }
 
+/*header background fix*/
+.workspace-leaf.mod-active .view-header-title-container:after {
+  background: none;
+}
