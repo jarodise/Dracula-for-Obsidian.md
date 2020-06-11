@@ -31,7 +31,7 @@ body, p {
   --text-link: #8be9fd;
   --text-a: #50fa7b;
   --text-a-hover: #bd93f9;
-  --text-mark: #8be9fd;
+  --text-mark: #6272a4;
   --pre-code: #282a36;
   --text-highlight-bg: #6272a4;
   --interactive-accent: #ffb86c;
@@ -122,7 +122,7 @@ mark
   background-color: var(--text-mark) !important;
 }
 
-.file-view-actions a, .cm-quote
+.file-view-actions a, 
 {
   color: var(--text-normal) !important;
 }
