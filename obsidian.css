@@ -1,7 +1,7 @@
 
 body, p {
   font-family: iAWriterQuattroS-Regular, "Dank Mono", Roboto, Helvetica, Arial, "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 18px; /*preview font-size*/ 
+  font-size: 20px; /*preview font-size*/ 
 }
 
 .editor {
@@ -11,7 +11,7 @@ body, p {
 
 .preview {
     font-family:iAWriterQuattroS-Regular,"Dank Mono", Roboto, Helvetica, Arial, "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 18px;
+    font-size: `8px;
 }
 
 .theme-dark
@@ -251,13 +251,7 @@ blockquote
 .is-read-mode .markdown-preview-view p
 {
 font-family: Avenir;
-font-size: 18px;
-}
 
-.cm-s-obsidian  /*Editor padding*/
-{
-  padding-left: 10% !important;
-  padding-right: 10% !important;
 }
 
 .CodeMirror-scroll::-webkit-scrollbar {
@@ -422,12 +416,11 @@ font-size: 18px;
 color: var(--text-normal) !important;
 }
 
-/*Editor font-size and line-height adjustment*/
+/*Editor and line-height adjustment*/
 .cm-s-obsidian, .app-container
 {
   font-family: iAWriterQuattroS-Regular, "Dank Mono", Roboto, Helvetica, Arial, "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 18px; /*Editor font-size*/
-  line-height: 160%;
+  line-height: 150%;
 }
 
 /* Andy Matuschak mode! V2! */
@@ -512,4 +505,11 @@ color: var(--text-normal) !important;
 /*header background fix*/
 .workspace-leaf.mod-active .view-header-title-container:after {
   background: none;
+}
+/*Editor padding and font-size*/
+.cm-s-obsidian  
+{
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+  font-size: 20px !important;
 }
