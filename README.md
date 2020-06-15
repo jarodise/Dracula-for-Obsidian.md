@@ -5,6 +5,9 @@
 ![Screenshot](./screencap.jpg)
 
 ## Install
+This theme has been selected as one of the built-in community themes for Obsidian, you can find the newest version in Settings -> Plugins -> Community Themes and apply the theme by simply clicking the "Use" button.
+
+If you prefer to manually install it, please follow the steps below:
 
 1. Download the obsidian.css file.
 
@@ -14,15 +17,14 @@
 
 4. Restart Obsidian.
 
-* To achieve the best visual effect, please install iA writer's [iA Writer Quattro](https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Quattro) font on your computer.
 
 ## Creator
 
 This theme is created and maintained by jarodise. 
-The CSS modification of the newest version is based on "Pisum" by MooddooM
-https://github.com/GuangluWu/obsidian-pisum
-[Twitter](https://twitter.com/jarodise) / [Instagram](https://www.instagram.com/jarodise/)
+[Twitter](https://twitter.com/jarodise) / [Instagram](https://www.instagram.com/jarodise/
 
+*The CSS modification of the newest version is based on ["Pisum" by MooddooM]
+(https://github.com/GuangluWu/obsidian-pisum)
 
 ## License
 
