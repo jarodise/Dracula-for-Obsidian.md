@@ -18,7 +18,10 @@
 
 ## Creator
 
-This theme is created and maintained by jarodise. [Twitter](https://twitter.com/jarodise) / [Instagram](https://www.instagram.com/jarodise/)
+This theme is created and maintained by jarodise. 
+The CSS modification of the newest version is based on "Pisum" by MooddooM
+https://github.com/GuangluWu/obsidian-pisum
+[Twitter](https://twitter.com/jarodise) / [Instagram](https://www.instagram.com/jarodise/)
 
 
 ## License
