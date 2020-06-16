@@ -21,7 +21,7 @@ If you prefer to manually install it, please follow the steps below:
 ## Creator
 
 This theme is created and maintained by jarodise. 
-[Twitter](https://twitter.com/jarodise) / [Instagram](https://www.instagram.com/jarodise/）
+[Twitter](https://twitter.com/jarodise) / [Instagram](https://www.instagram.com/jarodise)
 
 *The CSS modification of the newest version is based on ["Pisum" by MooddooM](https://github.com/GuangluWu/obsidian-pisum)
 
