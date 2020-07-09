@@ -237,6 +237,7 @@ a:not(.internal-link) {
 /* bold in preview and editor */
 strong, .cm-strong {
   font-weight: 600;
+  color: #50fa7b;
 }
 
 /* emphasis in preview and editor */
