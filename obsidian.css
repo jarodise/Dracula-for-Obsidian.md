@@ -594,7 +594,7 @@ color: var(--text-accent) !important;
 }
 
 .graph-view.color-line {
-    color: var(--text-accent-hover);
+    color: #6272a4;
 }
 
 .graph-view.color-fill{
