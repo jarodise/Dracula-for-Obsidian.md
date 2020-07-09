@@ -410,7 +410,6 @@ code{
 
 /* for editor */
 .cm-quote {
-  background-color: var(--pre-code);
   color: var(--text-normal) !important;
   font-style: italic;
 }
