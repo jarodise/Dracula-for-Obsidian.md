@@ -39,7 +39,7 @@
   --text-highlight-bg: #ff5555;
   --text-error: #ff79c6;
   --text-error-hover: #ff79c6;
-  --text-selection: #44475a; /* Chromium precess this color with alpha channel */
+  --text-selection: #6272a4; /* Chromium precess this color with alpha channel */
   --text-on-accent: #bd93f9;
   --interactive-normal: #ffb86c;
   --interactive-hover: #ff5555;
@@ -740,45 +740,3 @@ ul ul::before { left: -1em; top: 0; bottom: 0; }
 
 /* rule line when there are checkboxes*/
 ul .task-list-item ul::before {left: 0.15em !important}
-
-
-/* no good idea yet
-.cm-hmd-list-indent .cm-tab, ul ul { position: relative; }
-.cm-hmd-list-indent .cm-tab::before, ul ul::before {
-  content:'';
-  border-left: 1px solid var(--border-color);
-  position: absolute;
-}
-.cm-hmd-list-indent .cm-tab::before { left: 0.5em; top: -5px; bottom: -4px; }
-ul ul::before { left: -1em; top: 0; bottom: 0; }
-*/
-
-/***************************************/
-/*  Hide Scrollbar (recommend for mac)  */
-/***************************************/
-
-/* Hide scrollbar in preview, search, file, tag, back links *//*
-.markdown-preview-view::-webkit-scrollbar, 
-.workspace-leaf-content::-webkit-scrollbar, 
-.workspace-leaf-content[data-type = "backlink"] .view-content::-webkit-scrollbar {
-  display: none;
-}*/
-/* Hide scrollbar for editor*//*
-.CodeMirror-vscrollbar {
-  display: none !important;
-}*/
-
-/* disable the scrollbar for search pane
-.search-result-container::-webkit-scrollbar,
-.nav-files-container::-webkit-scrollbar,
-.tag-pane-tags::-webkit-scrollbar {
-  display: none; 
-}
-*/
-
-/*disable the scrollbar for main-container */
-/*
-.theme-light .horizontal-main-container ::-webkit-scrollbar{
-  display: none !important;
-}
-*/
