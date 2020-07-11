@@ -36,10 +36,10 @@
   --text-normal: #f8f8f2;
   --text-muted: #f8f8f2;
   --text-faint: #bd93f9;
-  --text-highlight-bg: #ffb86c;
+  --text-highlight-bg: #ff5555;
   --text-error: #ff79c6;
   --text-error-hover: #ff79c6;
-  --text-selection: rgba(60, 56, 54, 0.99); /* Chromium precess this color with alpha channel */
+  --text-selection: #44475a; /* Chromium precess this color with alpha channel */
   --text-on-accent: #bd93f9;
   --interactive-normal: #ffb86c;
   --interactive-hover: #ff5555;
@@ -356,12 +356,6 @@ pre code {
   font-size: var(--font-size-code);
 }
 
-/* in-line block for preview */
-code{
-  background-color: var(--pre-code) !important;
-  color: var(--inline-code) !important;
-  bottom: 0px !important;
-}
 
 /* remove the shadow that typically affect light mode */
 .theme-dark code[class*="language-"],
@@ -372,28 +366,6 @@ code{
     text-shadow: none !important;
     color: var(--text-faint) !important;
     background-color: var(--pre-code);
-}
-
-/***************************************/
-/*       Code block in Editor          */
-/***************************************/
-
-/* in-line block for editor */
-.cm-inline-code {
-  background-color: var(--pre-code) !important;
-  color: var(--inline-code) !important;
-  bottom: 0px !important;
-}
-
- /* Editor CodeBlock TEXT Appearance */
-.cm-s-obsidian pre.HyperMD-codeblock {
-  font-family: monaco !important;
-  font-size: var(--font-size-code) !important;
-  padding: 1px !important;
-  display: block;
-  background-color: var(--pre-code);     
-  color: var(--code-block) !important;
-  font-weight: 500;
 }
 
 /***************************************/
@@ -485,24 +457,6 @@ thead {
     background-color: var(--background-primary);
 }
 
-/***************************************/
-/*           html in editor            */
-/***************************************/
-
-/* html tags in editor */
-.cm-s-obsidian span.cm-tag {
-  color: var(--inline-code) !important;
-}
-
-/* html attribute and string in editor */
-.cm-s-obsidian span.cm-attribute {
-  color: var(--text-normal) !important;
-}
-
-/* html comments in editor */
-.cm-s-obsidian span.cm-comment {
-  color: var(--text-faint) !important;
-}
 
 /***************************************/
 /*              popover                */
