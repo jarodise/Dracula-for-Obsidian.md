@@ -57,7 +57,7 @@
   --text-title-h5:              #50fa7b;
   --text-title-h6:              #8be9fd;
   --inline-code:                #bd93f9;
-  --code-block:                 #bd93f9;
+  --code-block:                 #8be9fd;
   --pre-code:                   #44475a;
   --blockquote-border:          #ffb86c;
   --vim-cursor:                 #ff5555;
@@ -740,3 +740,37 @@ ul ul::before { left: -1em; top: 0; bottom: 0; }
 
 /* rule line when there are checkboxes*/
 ul .task-list-item ul::before {left: 0.15em !important}
+
+/***************************************/
+/*       Code block in Editor          */
+/***************************************/
+
+/* in-line block for editor */
+.cm-s-obsidian span.cm-inline-code,
+.cm-s-obsidian span.cm-inline-code.cm-hmd-indented-code,
+.cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code)
+{
+  background-color: var(--pre-code-bg);
+  color: var(--inline-code) !important;
+  bottom: 0px !important;
+}
+
+ /* Editor CodeBlock TEXT Appearance */
+.cm-s-obsidian pre.HyperMD-codeblock {
+  font-family: monaco !important;
+  font-size: var(--font-size-code) !important;
+  padding: 1px !important;
+  display: block;
+  color: var(--code-block) !important;
+  font-weight: 500;
+}
+
+/*remove the border of codeblock in editor */
+.HyperMD-codeblock-bg{
+  border: 0px !important;
+}
+
+/*an active line highlight in vim normal mode 
+.cm-fat-cursor .CodeMirror-activeline .CodeMirror-linebackground{
+  background-color: var(--text-selection) !important;
+} */
