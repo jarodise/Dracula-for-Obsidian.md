@@ -774,3 +774,9 @@ ul .task-list-item ul::before {left: 0.15em !important}
 .cm-fat-cursor .CodeMirror-activeline .CodeMirror-linebackground{
   background-color: var(--text-selection) !important;
 } */
+
+/* in-line block for preview */
+code{
+  color: var(--inline-code) !important;
+  bottom: 0px !important;
+}
