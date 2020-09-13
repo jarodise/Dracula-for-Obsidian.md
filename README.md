@@ -2,7 +2,7 @@
 
 > A dark theme for [Obsidian](https://obisidian.md), compatible to Obsidian V0.8.12
 
-![Screenshot](./screencap.jpg)
+![Screenshot](./demo.png)
 
 ## Install
 This theme has been selected as one of the built-in community themes for Obsidian, you can find the newest version in Settings -> Plugins -> Community Themes and apply the theme by simply clicking the "Use" button.
