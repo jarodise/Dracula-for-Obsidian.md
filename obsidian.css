@@ -475,6 +475,7 @@ thead {
 /* search result in backlink or file search */
 .search-result-file-title {  
   font-size: var(--font-size-side-dock-title) ;
+  margin-left: 5px;
 }
 
 .search-result-file-matches, .search-empty-state {
@@ -485,6 +486,11 @@ thead {
 .search-result-file-title,
 .search-result-file-match {
   padding: 0px 10px;
+}
+
+/*remove padding from collapse indicator*/
+.search-result-collapse-indicator {
+    padding: 0px;
 }
 
 .nav-file-title, .nav-folder-title {
