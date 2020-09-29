@@ -474,8 +474,7 @@ thead {
 
 /* search result in backlink or file search */
 .search-result-file-title {  
-  font-size: var(--font-size-side-dock-title) ;
-  margin-left: 5px;
+  font-size: 15px ;
 }
 
 .search-result-file-matches, .search-empty-state {
@@ -486,11 +485,6 @@ thead {
 .search-result-file-title,
 .search-result-file-match {
   padding: 0px 10px;
-}
-
-/*remove padding from collapse indicator*/
-.search-result-collapse-indicator {
-    padding: 0px;
 }
 
 .nav-file-title, .nav-folder-title {
@@ -786,3 +780,29 @@ code{
   color: var(--inline-code) !important;
   bottom: 0px !important;
 }
+
+/* graph css  */
+.theme-dark .graph-view.color-arrow {
+  color: #50fa7b;
+  }
+  
+  .theme-dark .graph-view.color-fill-tag {
+    color: #ffb86c;
+  }
+  
+  .theme-dark .graph-view.color-fill-attachment {
+    color: #ff5555;
+  }
+  
+  .theme-dark .graph-view.color-fill-unresolved {
+    color: #6272a4; 
+  }
+
+  .search-result-collapse-indicator {
+    position: absolute;
+    left: 0;
+    top: -3px;
+    color: var(--text-faint);
+    transition: transform 100ms ease-in-out;
+    padding: 0px  !important;
+  }
