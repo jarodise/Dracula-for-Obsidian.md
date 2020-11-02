@@ -763,6 +763,7 @@ ul .task-list-item ul::before {left: 0.15em !important}
   display: block;
   color: var(--code-block) !important;
   font-weight: 500;
+  text-indent: 0px !important;
 }
 
 /*remove the border of codeblock in editor */
