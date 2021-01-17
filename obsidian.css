@@ -46,9 +46,9 @@
   --interactive-accent: #ffb86c;
   --interactive-accent-rgb: 123, 108, 217;
   --interactive-accent-hover: #ff5555;
-  --scrollbar-active-thumb-bg: #282a36;
-  --scrollbar-bg: #282a36;
-  --scrollbar-thumb-bg: #282a36;
+  --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
+  --scrollbar-bg: rgba(255, 255, 255, 0.05);
+  --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
 
   --text-title-h1:              #ff79c6;
   --text-title-h2:              #bd93f9;
