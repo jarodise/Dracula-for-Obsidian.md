@@ -593,8 +593,8 @@ color: var(--text-accent) !important;
 
 .markdown-preview-view.is-readable-line-width .markdown-preview-section {
   max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 
