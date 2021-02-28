@@ -1,6 +1,6 @@
 # Dracula for [Obsidian.md](https://obsidian.md)
 
-> A dark theme for [Obsidian](https://obisidian.md), compatible to Obsidian V0.10.11
+> A dark theme for [Obsidian](https://obisidian.md), compatible to Obsidian V0.11.00
 
 ![Screenshot](./demo.png)
 
