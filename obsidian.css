@@ -11,17 +11,18 @@
     --font-size-h4:                  21px;
     --font-size-h5:                  20px;
     --font-size-h6:                  19px;
-    --font-family-editor:            Avenir, Avenir Next, sans-serif;
-    --font-family-preview:           Avenir, Avenir Next, sans-serif;
-} 
+    --font-family-editor:            Avenir, Avenir Next, monospace;
+    --font-family-preview:           Avenir, Avenir Next, monospace;
+    --merlin-color: #db8400;
+}
 
 .theme-light,
 .theme-dark {
-  --background-primary: #282a36;
-  --background-primary-alt: #44475a;
-  --background-secondary: #44475a;
-  --background-secondary-alt: #282a36;
-  --background-accent: #f8f8f2;
+  --background-primary: #111116;
+  --background-primary-alt: #1a1b23;
+  --background-secondary: #1a1b23;
+  --background-secondary-alt: #1a1b23;
+  --background-accent: #111116;
   --background-modifier-border: #f8f8f2;
   --background-modifier-form-field: rgba(0, 0, 0, 0.2);
   --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.5);
@@ -31,7 +32,7 @@
   --background-modifier-error-rgb: 61, 0, 0;
   --background-modifier-error-hover: #470000;
   --background-modifier-cover: rgba(0, 0, 0, 0.6);
-  --text-accent: #ffb86c;
+  --text-accent: var(--merlin-color);
   --text-accent-hover: #8be9fd;
   --text-normal: #f8f8f2;
   --text-muted: #f8f8f2;
@@ -41,9 +42,9 @@
   --text-error-hover: #ff79c6;
   --text-selection: #6272a4; /* Chromium precess this color with alpha channel */
   --text-on-accent: #bd93f9;
-  --interactive-normal: #ffb86c;
+  --interactive-normal: var(--merlin-color);
   --interactive-hover: #ff5555;
-  --interactive-accent: #ffb86c;
+  --interactive-accent: var(--merlin-color);
   --interactive-accent-rgb: 123, 108, 217;
   --interactive-accent-hover: #ff5555;
   --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
@@ -53,13 +54,13 @@
   --text-title-h1:              #ff79c6;
   --text-title-h2:              #bd93f9;
   --text-title-h3:              #ff5555;
-  --text-title-h4:              #ffb86c;
+  --text-title-h4:              var(--merlin-color);
   --text-title-h5:              #50fa7b;
   --text-title-h6:              #8be9fd;
   --inline-code:                #bd93f9;
   --code-block:                 #8be9fd;
   --pre-code:                   #44475a;
-  --blockquote-border:          #ffb86c;
+  --blockquote-border:          var(--merlin-color);
   --vim-cursor:                 #ff5555;
   --border-color:               #2b2727; /*also like transparent*/
 }
@@ -335,7 +336,7 @@ img:hover {
 
 /* code blocks in preview */
 pre code {
-  font-family: monaco !important;
+  font-family: Avenir, Avenir Next, monospace !important;
   font-size: var(--font-size-code) !important;
   padding: 6px !important;
   line-height: normal;
@@ -696,7 +697,7 @@ code{
   }
   
   .theme-dark .graph-view.color-fill-tag {
-    color: #ffb86c;
+    color: var(--merlin-color);
   }
   
   .theme-dark .graph-view.color-fill-attachment {
@@ -715,3 +716,4 @@ code{
     transition: transform 100ms ease-in-out;
     padding: 0px  !important;
   }
+
