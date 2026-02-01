@@ -30,3 +30,4 @@ This theme is created and maintained by jarodise.
 ## License
 
 [MIT License](./LICENSE)
+
